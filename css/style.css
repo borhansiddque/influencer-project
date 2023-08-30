@@ -294,4 +294,9 @@ footer {
 
 .footer-social i {
     cursor: pointer;
+    transition: color .3s;
+}
+
+.footer-social i:hover {
+    color: #E02C6D;
 }
