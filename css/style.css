@@ -1,0 +1,297 @@
+/* Font Family link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 85%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
+
+.menubar {
+    font-size: 2.25rem;
+    color: #3a3a3a;
+    cursor: pointer;
+    display: none;
+}
+
+.btn-primary {
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+/* Navbar Style */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.logo {
+    color: #3a3a3a;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.logo:hover,
+.menu li a:hover {
+    color: #000;
+    transition: all .3s;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu li a {
+    color: #3a3a3a;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.social i {
+    font-size: 2.25rem;
+    color: #3a3a3a;
+    cursor: pointer;
+}
+
+/* Header Style */
+
+header {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-info .btn-primary {
+    border-radius: 42px;
+}
+
+.header-info {
+    width: 50%;
+}
+
+.header-title {
+    color: #3A3A3A;
+    font-size: 3.25rem;
+}
+
+.header-desc {
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+
+.header-img {
+    width: 40%;
+    background-image: url("../images/circle-design.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.header-img img {
+    width: 450px;
+}
+
+/* Ecom Site Section Style */
+
+.ecom-site {
+    padding: 80px 50px;
+}
+
+.ecom-img-container {
+    padding: 20px;
+    border-top: 2px solid #efefef;
+    border-bottom: 2px solid #efefef;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.ecom-img-container img {
+    width: 90px;
+}
+
+.alibaba {
+    width: 80px;
+}
+
+/* Popular Collection Section */
+
+.popular-collection {
+    margin-top: 70px;
+}
+
+.popular-collection-title {
+    color: #3A3A3A;
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.popular-item-container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.popular-item-card {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+
+.popular-item-img img {
+    width: 100%;
+}
+
+.product-name {
+    color: #18191F;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.product-price {
+    color: #000000de;
+    font-size: 1.5rem;
+    margin: 5px 0px;
+}
+
+.rating {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.rate-star i {
+    color: #FB8200;
+}
+
+.product-para p{
+    margin-top: 5px;
+    color: #787885;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.252px;
+}
+
+.see-more-btn {
+    text-align: right;
+}
+
+.see-more-link {
+    color: #e02c6dde;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Featured Section Style */
+
+.featured-product {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+
+.featured-product-img {
+    width: 30%;
+}
+
+.featured-product-img img {
+    width: 100%;
+}
+
+.featured-product-info {
+    width: 55%;
+}
+
+.featured-info-title {
+    color: #0A0826;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.featured-info-desc {
+    color: #6C6C6C;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 15px 0px;
+}
+
+/* Footer Style */
+
+footer {
+    background-color: #0A0826;
+    padding: 40px 0px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.copyright {
+    margin-top: 15px;
+}
+
+.footer-social {
+    margin-top: 20px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-social i {
+    cursor: pointer;
+}
